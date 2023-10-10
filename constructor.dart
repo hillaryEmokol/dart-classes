@@ -1,7 +1,13 @@
 //default constructor
 class Barry{
     //default/unnamed constructor
-  Barry(String Fname, String Lname){
+    //this type of constructor takes no arguments or parameters
+    //it returns the instance of a class when called
+    //declaring a class without it causes dart to assume its presence by default
+    
+  //Example:
+   //Barry(); // this is a default constructor
+   Barry(String Fname, String Lname){
     this.Fname = Fname;
     this.Lname = Lname;
   }
